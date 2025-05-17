@@ -52,8 +52,16 @@ The application uses PostgreSQL with the following tables:
 
 ### Application Setup
 1. Clone the repository
-2. Configure database connection in `config.properties`
+2. Configure database connection in `.env`
 3. Run the application
+
+```
+DB_HOST=
+DB_PORT=
+DB_USER=
+DB_PASSWORD=
+DB_NAME=
+```
 
 ## Usage
 
